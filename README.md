@@ -1,4 +1,4 @@
-# latte and cat
+# CodeXのBlog
 
 > study programs and record life
 
