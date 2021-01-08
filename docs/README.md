@@ -11,7 +11,7 @@ home: true
 # }
 bgImage: '/img/bg.svg'
 bgImageStyle: {
-  height: '100vh'
+  height: '400px'
 }
 # actionText: About Me
 # actionLink: /aboutMe/
