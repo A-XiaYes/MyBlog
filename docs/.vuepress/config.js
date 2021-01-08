@@ -5,10 +5,11 @@ const plugins = require("./config/plugins")
 
 
 module.exports = {
+  base: '/MyBlog/',
   title: 'CodeXのBlog',
   description: '以码为梦 乐在其中',
   theme: 'reco',  // 主题
-  dest: './dist',
+  // dest: './dist',
   port: '7777',
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
