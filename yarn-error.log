@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\华为\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @vuepress-reco/vuepress-plugin-bgm-player
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;D:\MongoDB\bin;D:\Bin;D:\第二阶段\老师\软件\PostmanCn;C:\Program Files (x86)\Tencent\WeChat;D:\;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Users\华为\AppData\Local\Microsoft\WindowsApps;C;\Users\华为\AppData\Local\Programs\Microsoft VS Code\bin;C;\Users\华为\AppData\Roaming\npm;C;\Users\华为\AppData\Local\GitHubDesktop\bin;C;\Program Files\Docker Toolbox;C:\Users\华为\AppData\Roaming\npm;C:\Users\华为\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npm.taobao.org
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "Blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "vuepress dev docs",
+      "build": "vuepress build docs",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@vuepress/plugin-nprogress": "^1.8.0",
+      "vuepress": "^1.8.0",
+      "vuepress-theme-reco": "^1.6.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
