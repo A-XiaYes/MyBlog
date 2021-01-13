@@ -4,3 +4,4 @@ sidebar: false
 publish: false
 ---
 
+<about />
