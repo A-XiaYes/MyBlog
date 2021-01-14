@@ -4,7 +4,7 @@
       <li
         v-for="item in nav"
         @click="showNav(item.code)"
-        :style="cur === item.code ? 'background:#FF66CC;color:#fff;' : ''"
+        :style="cur === item.code ? 'background:#FF6700;color:#fff;' : ''"
         class="aboutNavItem">
         {{item.title}}
       </li>
@@ -21,16 +21,16 @@
       </div>
       <div v-show="cur === 'tech'">
         <ul>
-          <li><img src="../public/star.png"><span>html</span></li>
-          <li><img src="../public/star.png"><span>css</span></li>
-          <li><img src="../public/star.png"><span>javascript</span></li>
-          <li><img src="../public/star.png"><span>vue.js</span></li>
-          <li><img src="../public/star.png"><span>jfinal</span></li>
+          <li><img src="../public/star.png"><span>Html</span></li>
+          <li><img src="../public/star.png"><span>Css</span></li>
+          <li><img src="../public/star.png"><span>JavaScript</span></li>
+          <li><img src="../public/star.png"><span>Vue</span></li>
+          <li><img src="../public/star.png"><span>React</span></li>
         </ul>
       </div>
       <div v-show="cur === 'work'">
         <ul>
-          <li><img src="../public/star.png"><span>2019.06 ~ now：work at yioks</span></li>
+          <li><img src="../public/star.png"><span>2019.06 ~ now：work at HF</span></li>
         </ul>
       </div>
       <div v-show="cur === 'orange'">
@@ -51,13 +51,13 @@
       <div v-show="cur === 'book'">
         我在看的
         <ul>
-          <li><img src="../public/star.png"><span>我亦飘零久</span></li>
+          <li><img src="../public/star.png"><span>你不知道的JavaScript</span></li>
         </ul>
         我喜欢的
         <ul>
           <li><img src="../public/star.png"><span>推理</span></li>
           <li><img src="../public/star.png"><span>文学</span></li>
-          <li><img src="../public/star.png"><span>爱情</span></li>
+          <li><img src="../public/star.png"><span>玄幻</span></li>
         </ul>
         2020书单
         <ul>
@@ -74,11 +74,11 @@
       <div v-show="cur === 'tv'">
         我在追的
         <ul>
-          <li><img src="../public/star.png"><span>金钱游戏</span></li>
-          <li><img src="../public/star.png"><span>如实陈述</span></li>
+          <li><img src="../public/star.png"><span>浴血黑帮</span></li>
+          <li><img src="../public/star.png"><span>绝命毒师</span></li>
           <li><img src="../public/star.png"><span>梨泰院Class</span></li>
-          <li><img src="../public/star.png"><span>检察官内传</span></li>
-          <li><img src="../public/star.png"><span>浪客行</span></li>
+          <li><img src="../public/star.png"><span>生活大爆炸</span></li>
+          <li><img src="../public/star.png"><span>斗罗大陆</span></li>
         </ul>
       </div>
       <div v-show="cur === 'movie'">
@@ -93,7 +93,7 @@
         游戏只有和朋友一起玩时才存在意义
         <ul>
           <li><img src="../public/star.png"><span>LOL</span></li>
-          <li><img src="../public/star.png"><span>CSGO</span></li>
+          <li><img src="../public/star.png"><span>吃鸡</span></li>
         </ul>
       </div>
     </div>

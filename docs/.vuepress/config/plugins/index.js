@@ -10,6 +10,7 @@ module.exports = {
   },
   "@vuepress-reco/vuepress-plugin-kan-ban-niang": {
     theme: ['shizuku', 'z16', 'miku', 'haru2', 'koharu'],
+    clean: true,
     messages: {
       welcome: '欢迎来到' + 'CodeXのBlog' + '😀😁😄😃',
       home: '给你闭上眼睛捂住耳朵的信任😉',
