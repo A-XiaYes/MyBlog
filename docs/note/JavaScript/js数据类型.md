@@ -2,7 +2,7 @@
 title: JS数据类型
 sidebarDepth: 2
 tags:
- - js
+ - JavaScript
 categories:
  - 笔记
 date: 2019-10-14

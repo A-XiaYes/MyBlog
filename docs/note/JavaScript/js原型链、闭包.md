@@ -1,7 +1,7 @@
 ---
 title: JS原型链、闭包
 tags:
- - js
+ - JavaScript
 categories:
  - 笔记
 date: 2019-10-14

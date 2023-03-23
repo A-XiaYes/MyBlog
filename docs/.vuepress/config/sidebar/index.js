@@ -3,21 +3,12 @@ module.exports = {
     {
       title: 'HTML5',
       collapsable: true,
-      children: [
-        'Html5/Html5语义化标签',
-        'Html5/Canvas',
-        'Html5/HTML5表单元素',
-        'Html5/HTML5多媒体标签',
-        'Html5/HTML5中的API',
-      ]
+      children: []
     },
     {
       title: 'CSS',
       collapsable: true,
-      children: [
-        'Css/Css3新特性',
-        'Css/css3Flip'
-      ]
+      children: []
     },
     {
       title: 'JS',
@@ -31,10 +22,7 @@ module.exports = {
     {
       title: 'Vue',
       collapsable: true,
-      children: [
-        'Vue/Vue中传参的多种方式',
-        'Vue/Vue组件',
-      ]
+      children: []
     }
   ]
 }	

@@ -72,6 +72,12 @@ module.exports = {
         email: 'recoluan@qq.com',
         link: 'https://www.recoluan.com'
       },
+      {
+        title: '木木的秘密花园',
+        desc: '一心一明月，一树一年华.',
+        email: 'recoluan@qq.com',
+        link: 'https://www.pikamumu.top/'
+      }
     ],
     // 项目开始时间
     startYear: '2020',
