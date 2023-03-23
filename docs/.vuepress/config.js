@@ -6,14 +6,38 @@ const plugins = require("./config/plugins")
 
 module.exports = {
   base: '/MyBlog/',
-  title: 'CodeXのBlog',
-  description: '以码为梦 乐在其中',
+  title: 'CodeXのBlog', //左上角网站标题
+  description: '以码为梦 乐在其中', //网站描述，会在首次loading页面时加载
   theme: 'reco',  // 主题
   // dest: './dist',
   port: '7777',
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+    // DNS 预解析 dns-prefetch , 是为了优化图片加载的速度
+    ['link', { rel: 'dns-prefetch', href: 'https://s2.loli.net' }], 
     ['link', { rel: 'icon', href: '/img/avatar.jpg' }],
+    // 移动端优化，（搜索框在获得焦点时会放大，并且在失去焦点后可以左右滚动，优化）
+    [
+      'meta',
+      {
+        name: 'viewport',
+        content: 'width=device-width,initial-scale=1,user-scalable=no'
+      }
+    ],
+    // 百度SEO优化
+    ['meta', { name: 'baidu-site-verification', content: 'code-CekZJFvXZM' }],
+    [
+      'meta',
+      {
+        name: 'description',
+        content:
+          'CodeXのBlog的个人博客, 分享前端开发、个人生活的博客。欢迎来交换友链~ 一起学习进步！'
+      }
+    ],
+    [
+      'meta',
+      { name: 'keywords', content: '博客_vuepress搭建个人博客_reco主题' }
+    ],
     ['link', { rel: 'stylesheet', href: '/css/style.css' }],
     ['script', { type: 'text/javascript', src: '/js/index.js' }],
     // 引入jquery
@@ -32,7 +56,7 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: plugins,
+  plugins,
   themeConfig: {
     type: 'blog',
     huawei: false,
@@ -85,8 +109,8 @@ module.exports = {
      * valine 设置 (if you need valine comment )
      */
     valineConfig: {
-      appId: 'k1bqDk2GS6Ax0kdB9Cigvfes-gzGzoHsz',// your appId
-      appKey: 'K5aou0JxMhD8b7sj3nzfzhRc', // your appKey
+      appId: 'l1TQa0cVg7KMYNiBJnd5HBpk-9Nh9j0Va',
+      appKey: 'S502GjMdAgHTdWwUoFSnEcsM', //appKey, 注册登录leanCloud后获取
       placeholder: '是时候展现真正的技术了',
       avatar: 'wavatar',
       serverUrl: 'https://leanserver.smallsunnyfox.com'

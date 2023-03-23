@@ -1,7 +1,7 @@
 {
-  "name": "LatteAndCat",
-  "short_name": "LAC",
-  "description": "安小狐的个人博客",
+  "name": "CodeXのBlog",
+  "short_name": "CX",
+  "description": "CodeXのBlog",
   "icons": [
     {
       "src": "/icons/cat16.png",
